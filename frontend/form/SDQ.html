@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>  
+        <h1>Strengths and Difficulties Questionnaire</h1>
+        <p>For each item, please mark the box for Not True, Somewhat True or Certainly True. It would help us if you answered all items as
+          best you can even if you are not absolutely certain or the item seems daft! Please give your answers on the basis of how things
+          have been for you over the last six months.
+        </p>
+        <p>Date taken:</p>
+    </header>
+    <main>
+        <form action="" method="post">
+            <table class="formSDQ">
+                <tr class="top_row1">
+                    <th class="top_headsd"> ________</th>
+                    <th class="top_headsd"> Option </th>
+
+                </tr>
+
+                <div class="questionblock1_8">
+                <tr id="Q1">
+                    <td class="question1"> I try to be nice to other people. I care about their feelings</td>
+                        <td>
+                            <select name="answer1" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q2">
+                    <td class="question2"> I am restless, I find it hard to sit down for long</td>
+                        <td>
+                            <select name="answer2" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q3">
+                    <td class="question3"> I get a lot of headaches, stomach-aches or sickness</td>
+                        <td>
+                            <select name="answer3" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q4">
+                    <td class="question4"> I usually share with others (food, games, pens etc.) </td>
+                        <td>
+                            <select name="answer4" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q5">
+                    <td class="question5"> I get very angry and often lose my temper</td>
+                        <td>
+                            <select name="answer5" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q6">
+                    <td class="question6"> I am usually on my own. I generally play alone or keep to myself</td>
+                        <td>
+                            <select name="answer6" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q7">
+                    <td class="question7"> I usually do as I am told </td>
+                        <td>
+                            <select name="answer7" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q8">
+                    <td class="question8"> I worry a lot</td>
+                        <td>
+                            <select name="answer8" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                </div>
+                
+                <div class="questionblock9_16">
+                <tr id="Q9">
+                    <td class="question9"> I am helpful if someone is hurt, upset or feeling ill</td>
+                        <td>
+                            <select name="answer9" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q10">
+                    <td class="question10">I am constantly fidgeting or squirming </td>
+                        <td>
+                            <select name="answer10" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q11">
+                    <td class="question11"> I have one good friend or more</td>
+                        <td>
+                            <select name="answer11" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q12">
+                    <td class="question12">I fight a lot. I can make other people do what I want</td>
+                        <td>
+                            <select name="answer12" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q13">
+                    <td class="question13">I am often unhappy, down-hearted or tearful</td>
+                        <td>
+                            <select name="answer13" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q14">
+                    <td class="question14">Other people my age generally like me</td>
+                        <td>
+                            <select name="answer14" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q15">
+                    <td class="question15">I am easily distracted, I find it difficult to concentrate</td>
+                        <td>
+                            <select name="answer15" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q16">
+                    <td class="question16">I am nervous in new situations. I easily lose confidence </td>
+                        <td>
+                            <select name="answer16" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                </div>
+
+                <div class="questionblock17_26">
+                <tr id="Q17">
+                    <td class="question17">I am kind to younger children </td>
+                        <td>
+                            <select name="answer17" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q18">
+                    <td class="question18">I am often accused of lying or cheating</td>
+                        <td>
+                            <select name="answer18" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q19">
+                    <td class="question19">Other children or young people pick on me or bully me</td>
+                        <td>
+                            <select name="answer19" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q20">
+                    <td class="question20">I often volunteer to help others (parents, teachers, children) </td>
+                        <td>
+                            <select name="answer20" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q21">
+                    <td class="question21">I think before I do things</td>
+                        <td>
+                            <select name="answer21" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q22">
+                    <td class="question22">I take things that are not mine from home, school or elsewhere</td>
+                        <td>
+                            <select name="answer22" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q23">
+                    <td class="question23">I get on better with adults than with people my own age </td>
+                        <td>
+                            <select name="answer23" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="24">
+                    <td class="question24">I have many fears, I am easily scared</td>
+                        <td>
+                            <select name="answer24" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q25">
+                    <td class="question25">I finish the work I'm doing. My attention is good</td>
+                        <td>
+                            <select name="answer25" onchange="myFunction()">
+                               <option selected>please choose one</option>
+                               <option value="">NotTrue</option>
+                               <option value=""> Somewhat True</option>
+                               <option value="">Certainly True</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr id="Q26">
+                    <td class="question26">Do you have any other comments or concerns?</td>
+                        <td>
+                            <input type="text" name="answer26a" id="answer26a_comments">
+                            </select>
+                        </td>
+                </tr>
+                <input type="submit">
+                </div>
+
+            </table>
+        </form>
+    </main>
+</body>
+</html>
