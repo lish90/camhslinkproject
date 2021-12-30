@@ -1,0 +1,37 @@
+
+//  the variables below are 
+
+let parent_102 = null;
+
+let child_12 = null;
+
+// declared variables for the question
+
+let Quest_considerate = null;
+
+let Quest_share = null;
+
+let Quest_helpful = null;
+
+let Quest_kinder = null;
+
+let Quest_volunteer = null;
+
+//  the pro_social is the total for the pro_social behaviour scale
+
+let Pro_social = null;
+
+//  The answer to the questions is stored in the variable  
+//  Then add the variables to Pro-social scale
+Pro_social = Quest_considerate + Quest_share +Quest_helpful + Quest_kinder + Quest_volunteer 
+// 
+
+var person = prompt("Please enter your name", "Harry Potter");
+if (person != null) {
+  document.getElementById("demo").innerHTML =
+  "Hello " + person + "! How are you today?";
+}
+
+var baby = prompt()
+
+alert(document.getElementById('checkbox1').checked); 

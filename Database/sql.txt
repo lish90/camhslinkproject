@@ -1,0 +1,14 @@
+CREATE sdqb(
+    `IDSDQb` INT,
+    `Child_sdq_idSDQ` INT,
+    `Parent_idParent` INT
+    `Date taken` DATE,
+    `total difficulties score` INT, 
+    `Conduct problems score`INT,
+    `Hyperactivity score` INT,
+    `Emotional symptoms score` INT,
+    `Peer problem score` INT,
+    `Pro-social behaviour score` INT 
+)
+
+
