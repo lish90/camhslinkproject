@@ -1,2 +1,2 @@
 # camhslinkproject
-This project is for mast proje t 
+This project is the artifact for master in computing. 
